@@ -134,7 +134,7 @@ export function Navbar() {
         className="flex items-center space-x-2 text-xl font-bold text-neutral-900 hover:text-neutral-800 transition-colors"
       >
         <Image
-          src="/logo.jpg"
+          src="/logo23.png"
           alt="Saudi IT Security & Compliance Consultancy"
           width={32}
           height={32}

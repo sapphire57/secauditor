@@ -27,5 +27,4 @@ export const ICON_PATHS = {
 } as const
 
 type IconCategory = keyof typeof ICON_PATHS
-type IconName<T extends IconCategory> = keyof typeof ICON_PATHS[T]
 export type IconPath = `${IconCategory}.${string}` 
