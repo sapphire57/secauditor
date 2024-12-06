@@ -27,4 +27,5 @@ export const ICON_PATHS = {
 } as const
 
 type IconCategory = keyof typeof ICON_PATHS
+export type IconName = IconCategory | `${IconCategory}.${string}`
 export type IconPath = `${IconCategory}.${string}` 
