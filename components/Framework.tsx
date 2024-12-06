@@ -24,15 +24,15 @@ const frameworks: FrameworkItem[] = [
         icon: "/server.svg"
       },
       {
-        text: "Cloud Security Controls",
+        text: "The Cloud Security Controls",
         icon: "/cloud.svg"
       },
       {
-        text: "Information Security Governance",
+        text: "The National Cryptographic Standards",
         icon: "/file-lock.svg"
       },
       {
-        text: "Asset Management & Security",
+        text: "Telework Cybersecurity Controls",
         icon: "/database.svg"
       }
     ],
@@ -46,15 +46,15 @@ const frameworks: FrameworkItem[] = [
         icon: "/lock.svg"
       },
       {
-        text: "Business Continuity Management",
+        text: "IT Governance Framework",
         icon: "/refresh.svg"
       },
       {
-        text: "Digital Banking Security",
+        text: "Business Continuity Management",
         icon: "/bank.svg"
       },
       {
-        text: "Risk Assessment & Management",
+        text: "Cyber Resilience Requirements",
         icon: "/chart.svg"
       },
       {
@@ -76,7 +76,7 @@ export default function Framework() {
             Regulatory Frameworks
           </h2>
           <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
-            Comprehensive compliance solutions aligned with Saudi Arabia&apos;s leading regulatory frameworks
+            Comprehensive Compliance solutions aligned with Saudi Arabia&apos;s Regulatory Frameworks
           </p>
         </div>
 
@@ -85,11 +85,11 @@ export default function Framework() {
           {frameworks.map((framework, index) => (
             <div 
               key={index}
-              className="group relative bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300 border border-neutral-200"
+              className="group relative bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300 border border-blue-200"
             >
               {/* Framework Icon */}
               <div className="absolute -top-6 left-8">
-                <div className="bg-neutral-900 p-3 rounded-xl shadow-lg">
+                <div className="bg-blue-100 p-3 rounded-xl shadow-lg">
                   <Image
                     src={framework.icon}
                     alt=""
@@ -129,7 +129,7 @@ export default function Framework() {
               </div>
 
               {/* Hover Effect Decoration */}
-              <div className="absolute inset-0 border-2 border-neutral-900 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              <div className="absolute inset-0 border-2 border-blue-200 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             </div>
           ))}
         </div>

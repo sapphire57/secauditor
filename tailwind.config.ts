@@ -25,6 +25,10 @@ const config: Config = {
         'xl': '1rem',
         '2xl': '1.5rem',
       },
+      transitionProperty: {
+        'width': 'width',
+        'spacing': 'margin, padding',
+      },
     },
   },
   plugins: [
