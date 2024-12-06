@@ -76,7 +76,7 @@ export default function Framework() {
             Regulatory Frameworks
           </h2>
           <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
-            Comprehensive compliance solutions aligned with Saudi Arabia's leading regulatory frameworks
+            Comprehensive compliance solutions aligned with Saudi Arabia&apos;s leading regulatory frameworks
           </p>
         </div>
 
