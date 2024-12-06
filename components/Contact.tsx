@@ -49,7 +49,8 @@ export default function Contact() {
         setIsModalOpen(false)
         setSubmitStatus(null)
       }, 2000)
-    } catch (error) {
+    } catch (err) {
+      console.error('Submission error:', err)
       setSubmitStatus('error')
     } finally {
       setIsSubmitting(false)
@@ -187,7 +188,7 @@ export default function Contact() {
 
             {submitStatus === 'success' && (
               <p className="text-green-600 text-center">
-                Thank you! We'll be in touch soon.
+                Thank you! We&apos;ll be in touch soon.
               </p>
             )}
             {submitStatus === 'error' && (

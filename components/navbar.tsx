@@ -89,8 +89,7 @@ export function Navbar() {
 
       timeoutId = setTimeout(() => {
         const sections = ['services', 'framework', 'contact']
-        const scrollPosition = window.scrollY + 100
-
+        
         for (const section of sections) {
           const element = document.getElementById(section)
           if (element) {
